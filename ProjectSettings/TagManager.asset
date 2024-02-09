@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: LapasMelnas
+    uniqueID: 3278969425
+    locked: 0
+  - name: Lapas
+    uniqueID: 3681166635
+    locked: 0
