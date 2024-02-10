@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DurvjuPuzle.unity
     guid: d5c7f68e9d73d2343bb6a25b336056a1
+  - enabled: 1
+    path: Assets/Scenes/HomeExit.unity
+    guid: a6e38c4afcdb5174ab817571690c5109
   m_configObjects: {}

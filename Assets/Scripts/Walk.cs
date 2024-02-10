@@ -45,13 +45,13 @@ public class Walk : MonoBehaviour
     void FixedUpdate()
     {
         // Check if the character is grounded
-        isGrounded = Physics.Raycast(transform.position, Vector3.down, 0.6f);
+        isGrounded = Physics2D.Raycast(transform.position, Vector3.down, 0.6f);
     }
 
     void Jump()
     {
         // Apply a vertical force for jumping
-        GetComponent<Rigidbody>().AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        GetComponent<Rigidbody2D>().AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
     }
 }
 
