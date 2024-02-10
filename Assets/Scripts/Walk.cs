@@ -11,6 +11,7 @@ public class Walk : MonoBehaviour
 
     void Start()
     {
+        
         // Your initialization code, if any
     }
 
@@ -42,10 +43,22 @@ public class Walk : MonoBehaviour
         }
     }
 
-    void FixedUpdate()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        // Check if the character is grounded
-        isGrounded = Physics2D.Raycast(transform.position, Vector3.down, 0.6f);
+        // Check if the collision is with the ground
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        // Check if the player leaves the ground
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
+        }
     }
 
     void Jump()

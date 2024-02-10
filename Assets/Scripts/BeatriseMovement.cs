@@ -10,7 +10,6 @@ public class BeatriseMovement : MonoBehaviour
 
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -35,7 +34,7 @@ public class BeatriseMovement : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(moveTime); // 
+            yield return new WaitForSeconds(moveTime);
             movingRight = !movingRight; // Change direction
         }
     }
