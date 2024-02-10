@@ -222,6 +222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctForm: {fileID: 1565700118}
+  offset: {x: 0.2, y: 0.2}
+  callback: {fileID: 0}
 --- !u!65 &196070398
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -334,6 +336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctForm: {fileID: 369816941}
+  offset: {x: 0.2, y: 0.2}
+  callback: {fileID: 0}
 --- !u!65 &318450976
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -446,6 +450,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   correctForm: {fileID: 685199085}
+  offset: {x: 0.2, y: 0.2}
+  callback: {fileID: 0}
 --- !u!65 &319354710
 BoxCollider:
   m_ObjectHideFlags: 0

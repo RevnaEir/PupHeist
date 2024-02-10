@@ -18,7 +18,7 @@ public class MoveSystem : MonoBehaviour
    
     void Start()
     {
-        resetPosition = this.transform.position;
+        resetPosition = transform.position;
     }
 
    
@@ -76,6 +76,10 @@ public class MoveSystem : MonoBehaviour
             this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
             finish = true;
             callback?.Raise();
+        }
+        else
+        {
+            this.transform.position = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
         }
     }
 
