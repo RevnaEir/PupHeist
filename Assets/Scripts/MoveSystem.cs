@@ -12,6 +12,9 @@ public class MoveSystem : MonoBehaviour
     private float startPosY;
 
     private Vector3 resetPosition;
+
+    [SerializeField] private Vector2 offset;
+    [SerializeField] private GameAction callback;
    
     void Start()
     {
@@ -54,15 +57,25 @@ public class MoveSystem : MonoBehaviour
     {
         moving = false;
 
-        if (Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= 0.3f && 
-            Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= 0.3f)
+        if(correctForm != null)
         {
-            this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
-            finish = true;
+            CheckObjectPosition();
         }
         else
         {
             this.transform.position = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
+        }
+    }
+
+    private void CheckObjectPosition()
+    {
+        
+        if (Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= offset.x &&
+        Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= offset.y)
+        {
+            this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
+            finish = true;
+            callback?.Raise();
         }
     }
 

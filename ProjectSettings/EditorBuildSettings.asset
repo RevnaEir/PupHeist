@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeIdle.unity
     guid: c51152a5f7fd2ce46bce1f923eb14d3c
+  - enabled: 1
+    path: Assets/Scenes/DurvjuPuzle.unity
+    guid: d5c7f68e9d73d2343bb6a25b336056a1
   m_configObjects: {}
