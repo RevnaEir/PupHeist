@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomeExit.unity
     guid: a6e38c4afcdb5174ab817571690c5109
+  - enabled: 1
+    path: Assets/Scenes/LapasPuzle.unity
+    guid: 7036a9ff087efc040a4025082c462c03
   m_configObjects: {}

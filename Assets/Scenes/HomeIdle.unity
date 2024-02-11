@@ -284,6 +284,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2490687732541210241, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
+      propertyPath: m_SortingOrder
+      value: 172
+      objectReference: {fileID: 0}
     - target: {fileID: 2490687732541210243, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
       propertyPath: m_Name
       value: Doggie
@@ -1711,7 +1715,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 401
   m_Sprite: {fileID: 21300000, guid: 82c7ac27841518a4f8fcbe5df54afb23, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
