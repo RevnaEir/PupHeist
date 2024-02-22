@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39b6cb05-9789-4781-bf16-a20e2f8bca68" name="Changes" comment="" />
+    <list default="true" id="39b6cb05-9789-4781-bf16-a20e2f8bca68" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PupHeist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PupHeist/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/Doggie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prehubs/Doggie.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/CollectedKeys.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2c8GAQ9050f6bgHgDugurKC4oq1" />
   <component name="ProjectViewState">
@@ -22,9 +32,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\Emīlija\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Emīlija\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Emīlija\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\Beatrise\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Beatrise\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Beatrise\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -75,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707485650144</updated>
       <workItem from="1707485654271" duration="614000" />
+      <workItem from="1708642901721" duration="2118000" />
     </task>
     <servers />
   </component>
