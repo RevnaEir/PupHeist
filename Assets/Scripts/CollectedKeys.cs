@@ -10,5 +10,10 @@ public class CollectedKeys : MonoBehaviour
     {
         keyList.Add(id);
     }
+
+    public int GetCount()
+    {
+        return keyList.Count;
+    }
 }
 
