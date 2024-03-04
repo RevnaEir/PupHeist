@@ -2,17 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b6cb05-9789-4781-bf16-a20e2f8bca68" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PupHeist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PupHeist/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/Doggie.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prehubs/Doggie.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OpenDoors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OpenDoors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/BEATRISE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/BEATRISE.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/Doggie.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/Doggie.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/EMILIJA32X64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/EMILIJA32X64.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/GayFence.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/GayFence.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/House288.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/House288.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/MAJA1152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/MAJA1152.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/Maja1152meta.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/Maja1152meta.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/PlayButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/PlayButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/beka.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/beka.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/gayhouse288.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/gayhouse288.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/pixilart-drawing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/pixilart-drawing.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/priedeble.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/priedeble.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/purple house 288.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prehubs/purple house 288.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CollectedKeys.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,22 +44,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Discover.Launch.Via.Unity": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\Beatrise\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\Beatrise\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\Beatrise\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\Beatrise\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\Beatrise\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\Beatrise\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Unity.exe" />
@@ -86,6 +108,7 @@
       <updated>1707485650144</updated>
       <workItem from="1707485654271" duration="614000" />
       <workItem from="1708642901721" duration="2593000" />
+      <workItem from="1709560603725" duration="314000" />
     </task>
     <servers />
   </component>

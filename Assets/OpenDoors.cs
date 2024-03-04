@@ -12,7 +12,7 @@ public class OpenDoors : MonoBehaviour
         {
             CollectedKeys collectedKeys = other.gameObject.GetComponent<CollectedKeys>();
 
-            if (collectedKeys.GetCount() == 4)
+            if (collectedKeys.GetCount() == 2)
             {
                 doorTrigger.enabled = true;
             }
