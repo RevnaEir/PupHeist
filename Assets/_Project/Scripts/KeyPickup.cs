@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class KeyPickup : MonoBehaviour
 {
-    [SerializeField] private int keyId = 0;
+    [SerializeField] public int keyId = 0;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
@@ -13,8 +14,10 @@ public class KeyPickup : MonoBehaviour
             CollectedKeys collectedKeys = other.GetComponent<CollectedKeys>();
             if (collectedKeys != null)
             {
-                collectedKeys.AddKey(keyId);
-                Destroy(gameObject);
+                Item key = new Item(keyId);
+                // collectedKeys.AddKey(keyId);
+                collectedKeys.AddKey(key);
+                gameObject.SetActive(false);
             }
         }
     }

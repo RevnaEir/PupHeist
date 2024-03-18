@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,11 @@ public class CameraFollow : MonoBehaviour
     public float yOffset = 1f;
 
     public Transform target;
+
+    private void OnEnable()
+    {
+        target = GameObject.FindObjectOfType<DontDestroy>().transform;
+    }
 
     // Update is called once per frame
     void Update()
