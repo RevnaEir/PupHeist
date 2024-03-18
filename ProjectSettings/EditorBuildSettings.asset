@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Scenes/LapasPuzle.unity
     guid: 7036a9ff087efc040a4025082c462c03
+  - enabled: 1
+    path: Assets/_Project/Scenes/MazePuzle.unity
+    guid: 236dc661052ac16429246a6d8e0fb836
   m_configObjects: {}
