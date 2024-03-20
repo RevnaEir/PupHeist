@@ -7,6 +7,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PupHeist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PupHeist/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/HomeExit.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/HomeExit.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/CameraFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/CameraFollow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/CollectedKeys.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/CollectedKeys.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/KeyPickup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/KeyPickup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/LevelMove_Ref.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/LevelMove_Ref.cs" afterDir="false" />
@@ -100,7 +101,7 @@
       <workItem from="1710242609867" duration="10225000" />
       <workItem from="1710416309339" duration="2170000" />
       <workItem from="1710434806986" duration="729000" />
-      <workItem from="1710776927561" duration="3448000" />
+      <workItem from="1710776927561" duration="4248000" />
     </task>
     <servers />
   </component>
