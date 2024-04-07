@@ -49,3 +49,9 @@ TagManager:
   - name: Lapas
     uniqueID: 3681166635
     locked: 0
+  - name: Background
+    uniqueID: 1219231405
+    locked: 0
+  - name: Ground
+    uniqueID: 2936318023
+    locked: 0
