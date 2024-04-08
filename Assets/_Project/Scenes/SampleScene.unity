@@ -394,8 +394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -80.5895, y: -1.4787}
+  m_SizeDelta: {x: 287.2437, y: 129.8502}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &63617361
 MonoBehaviour:
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -69.70575, y: -25.908325, z: 46.881744, w: -22.207138}
+  m_margin: {x: 3.08918, y: -2.6139374, z: 3.2290344, w: 8.212456}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -679,7 +679,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &158165033
 RectTransform:
   m_ObjectHideFlags: 0
@@ -699,7 +699,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 271, y: 156}
+  m_SizeDelta: {x: 611.1023, y: 336.4022}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &158165034
 MonoBehaviour:
@@ -9025,7 +9025,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901546265}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89a30b109f3aea847ad5c0ec3b90e3d7, type: 3}
   m_Name: 
@@ -9041,7 +9041,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901546265}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -9064,7 +9064,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.034270346, y: -0.008567572}
@@ -9095,9 +9095,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 158165032}
   dialogueText: {fileID: 63617361}
   dialogue:
-  - Who is such a good boy?
+  - Who is a good boy Max?
   - Yes you are...
-  wordSpeed: 0.2
+  wordSpeed: 0.06
   playerIsClose: 0
 --- !u!1 &1920575346
 GameObject:
@@ -9614,18 +9614,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doggie
       objectReference: {fileID: 0}
-    - target: {fileID: 2490687732541210243, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2490687732541210243, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2490687732541210250, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
-      propertyPath: inputText
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2490687732541210254, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -9669,18 +9657,6 @@ PrefabInstance:
     - target: {fileID: 2490687732541210254, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062571228510976870, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
-      propertyPath: m_Size.y
-      value: 0.6081641
-      objectReference: {fileID: 0}
-    - target: {fileID: 3062571228510976870, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.015594363
-      objectReference: {fileID: 0}
-    - target: {fileID: 3936645179330557028, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
-      propertyPath: m_Simulated
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
