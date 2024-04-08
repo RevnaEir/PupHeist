@@ -6,6 +6,7 @@ TagManager:
   tags:
   - NPC
   - Ground
+  - Rat
   layers:
   - Default
   - TransparentFX
