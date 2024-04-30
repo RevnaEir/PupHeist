@@ -1,19 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
+using Systems.GameEvents;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
 public class NPC : MonoBehaviour
 {
+    [SerializeField] private GameEvent showInteractionText;
+    [SerializeField] private GameEvent hideInteractionText;
+    
     public GameObject dialoguePanel;
-    public TextMeshProUGUI dialogueText;
+    public TMP_Text dialogueText;
     public string[] dialogue;
     private int index = 0;
 
     //public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
+    
+    
 
 
     void Start()
@@ -26,6 +32,7 @@ public class NPC : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
+            hideInteractionText.Raise();
             if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
@@ -77,6 +84,7 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            showInteractionText.Raise();
             playerIsClose = true;
         }
     }
@@ -85,6 +93,7 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            hideInteractionText.Raise();
             playerIsClose = false;
             RemoveText();
         }
