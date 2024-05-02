@@ -18,6 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/BigDoor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Emiassets/Spring_background/ParallaxCamera.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Emiassets/Spring_background/ParallaxController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/DontDestroy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -128,6 +129,7 @@
       <workItem from="1714492696278" duration="2125000" />
       <workItem from="1714496256637" duration="364000" />
       <workItem from="1714496636369" duration="742000" />
+      <workItem from="1714648505780" duration="9016000" />
     </task>
     <servers />
   </component>

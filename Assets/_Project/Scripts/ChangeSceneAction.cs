@@ -9,6 +9,6 @@ public class ChangeSceneAction : GameAction
 
     public override void Raise()
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadSceneAsync(sceneName);
     }
 }
