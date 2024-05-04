@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 189232f2ecc6b544c89b362187e48b81
+guid: 7cb59fd59f55d4d47914273188239c8a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,337 +105,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: outsideassets-export_0
-      rect:
-        serializedVersion: 2
-        x: 62
-        y: 151
-        width: 51
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d3af0d5dbf59e604cb7a87052e314de8
-      internalID: -2096542612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outsideassets-export_1
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 142
-        width: 51
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0de9a8f5997fff94394828799e6d6e23
-      internalID: -1160035129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outsideassets-export_2
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 153
-        width: 29
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e08eb59dd9842d84eaffaf2114c71e9c
-      internalID: -54083124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outsideassets-export_3
+      name: doggyanimrun-Sheet_0
       rect:
         serializedVersion: 2
         x: 4
-        y: 101
-        width: 22
+        y: 12
+        width: 37
         height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6bed1256bd7a0649affcffc2c310424
-      internalID: 174179501
+      spriteID: f89539ee882925a4bb3d4715edc97591
+      internalID: 151656890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideassets-export_4
+      name: doggyanimrun-Sheet_1
       rect:
         serializedVersion: 2
-        x: 47
-        y: 10
-        width: 70
-        height: 106
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdbb056b4375d64408b475f65f6b57be
-      internalID: 914074262
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outsideassets-export_5
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 6
-        width: 53
-        height: 118
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61f7f65f4c88fe041b2805664147cd8d
-      internalID: -371636781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outsideassets-export_6
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 11
-        width: 70
-        height: 106
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a83312e7d1ba36b4ba3ceb448f45a614
-      internalID: 1936040608
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outsideassets-export_7
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 9
-        width: 103
-        height: 113
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e196a5eb4df9a954dabe46a61086a6e7
-      internalID: 2007906650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: outsideassets-export_8
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 76
-        width: 32
+        x: 58
+        y: 12
+        width: 37
         height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fd40f87a341c5446841cb047219cbca
-      internalID: 932895335
+      spriteID: 60b0b6e7c20d1ab48916275ac450c9a6
+      internalID: -1196828490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideassets-export_9
+      name: doggyanimrun-Sheet_2
       rect:
         serializedVersion: 2
-        x: 4
-        y: 60
-        width: 10
-        height: 10
+        x: 109
+        y: 12
+        width: 42
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22ccf1d9f8c83864fa0fac0520509726
-      internalID: -576983548
+      spriteID: 01be5ea6a10694545afccefb8f8f17b3
+      internalID: 1822399939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideassets-export_10
+      name: doggyanimrun-Sheet_3
       rect:
         serializedVersion: 2
-        x: 24
-        y: 60
-        width: 10
-        height: 10
+        x: 164
+        y: 12
+        width: 44
+        height: 21
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 250fb53871707464d9de004f1c429abf
-      internalID: 26227189
+      spriteID: 79e348e05ba400f4bbe046acc66ff02f
+      internalID: 1970629749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideassets-export_11
+      name: doggyanimrun-Sheet_4
       rect:
         serializedVersion: 2
-        x: 5
-        y: 49
-        width: 9
-        height: 6
+        x: 221
+        y: 13
+        width: 44
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dc87cc5a8cc62b4dadacac7380f4056
-      internalID: -1064251664
+      spriteID: 116ad8822afde4b44bafa7fc80ad9387
+      internalID: 2016512659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideassets-export_12
+      name: doggyanimrun-Sheet_5
       rect:
         serializedVersion: 2
-        x: 22
-        y: 42
-        width: 13
-        height: 13
+        x: 277
+        y: 12
+        width: 38
+        height: 18
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9015fe06247e0824c9a0617e9c5e277a
-      internalID: 1080056098
+      spriteID: bda06d6878464634d9174bac323c71b8
+      internalID: 1266677186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideassets-export_13
+      name: doggyanimrun-Sheet_6
       rect:
         serializedVersion: 2
-        x: 5
-        y: 25
-        width: 12
-        height: 11
+        x: 328
+        y: 12
+        width: 37
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e084f87271ceea04582289a8acce1202
-      internalID: 826314434
+      spriteID: fc151ff5394583145a877bcf69bc00e3
+      internalID: -1456469145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideassets-export_14
+      name: doggyanimrun-Sheet_7
       rect:
         serializedVersion: 2
-        x: 5
-        y: 4
-        width: 17
-        height: 14
+        x: 382
+        y: 12
+        width: 37
+        height: 17
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 785acbb6dd1562c40a3a457388c357d9
-      internalID: -396286178
+      spriteID: d822f029d1cb77d49b57ad5828a88952
+      internalID: 579198971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: outsideassets-export_15
+      name: doggyanimrun-Sheet_8
       rect:
         serializedVersion: 2
-        x: 25
-        y: 3
-        width: 21
-        height: 16
-      alignment: 9
-      pivot: {x: 0.46515185, y: 0.4934662}
+        x: 433
+        y: 12
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80dfac9890ff4014b87aa7c5213f0f0b
-      internalID: 61183164
+      spriteID: eb0f0a5cbb562cf41adeb47488e9c8e5
+      internalID: 2110243056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggyanimrun-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 12
+        width: 44
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9611d616abc00234886c7ba957f99eb9
+      internalID: -931228326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggyanimrun-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 13
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10a03cc01636ce4f960f9221fce9c3a
+      internalID: 1098294140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: doggyanimrun-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 12
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9072ebc068d881e4895ed66c1bc0d16d
+      internalID: -2058759246
       vertices: []
       indices: 
       edges: []
@@ -451,22 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      outsideassets-export_12: 1080056098
-      outsideassets-export_9: -576983548
-      outsideassets-export_10: 26227189
-      outsideassets-export_8: 932895335
-      outsideassets-export_15: 61183164
-      outsideassets-export_5: -371636781
-      outsideassets-export_14: -396286178
-      outsideassets-export_0: -2096542612
-      outsideassets-export_6: 1936040608
-      outsideassets-export_4: 914074262
-      outsideassets-export_13: 826314434
-      outsideassets-export_1: -1160035129
-      outsideassets-export_7: 2007906650
-      outsideassets-export_3: 174179501
-      outsideassets-export_2: -54083124
-      outsideassets-export_11: -1064251664
+      doggyanimrun-Sheet_11: -2058759246
+      doggyanimrun-Sheet_0: 151656890
+      doggyanimrun-Sheet_1: -1196828490
+      doggyanimrun-Sheet_7: 579198971
+      doggyanimrun-Sheet_2: 1822399939
+      doggyanimrun-Sheet_9: -931228326
+      doggyanimrun-Sheet_6: -1456469145
+      doggyanimrun-Sheet_4: 2016512659
+      doggyanimrun-Sheet_3: 1970629749
+      doggyanimrun-Sheet_5: 1266677186
+      doggyanimrun-Sheet_8: 2110243056
+      doggyanimrun-Sheet_10: 1098294140
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
