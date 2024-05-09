@@ -29,11 +29,11 @@ public class Walk : MonoBehaviour
         // Flip the sprite based on movement direction
         if (movement.x > 0)
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }
         else if (movement.x < 0)
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
 
         // Jumping logic
