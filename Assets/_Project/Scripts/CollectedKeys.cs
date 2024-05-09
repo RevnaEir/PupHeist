@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,11 @@ public class CollectedKeys : MonoBehaviour
 {
     public List<int> keyList = new ();
     public List<Item> keyList2 = new ();
+
+    private void Awake()
+    {
+        keyList2.Clear();
+    }
 
     public void AddKey(int id)
     {
@@ -18,7 +24,7 @@ public class CollectedKeys : MonoBehaviour
 
     public int GetCount()
     {
-        return keyList.Count;
+        return keyList2.Count;
     }
 }
 

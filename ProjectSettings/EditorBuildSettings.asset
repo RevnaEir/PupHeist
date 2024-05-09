@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Project/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/_Project/Scenes/StartScreen.unity
     guid: de966a58b3621004bbc7a94173669c37
+  - enabled: 1
+    path: Assets/_Project/Scenes/StartFilm.unity
+    guid: f2eead46a56fb76498bb8930ec0c5fe5
   - enabled: 1
     path: Assets/_Project/Scenes/HomeIdle.unity
     guid: c51152a5f7fd2ce46bce1f923eb14d3c
@@ -18,12 +18,12 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/DurvjuPuzle.unity
     guid: d5c7f68e9d73d2343bb6a25b336056a1
   - enabled: 1
-    path: Assets/_Project/Scenes/HomeExit.unity
-    guid: a6e38c4afcdb5174ab817571690c5109
+    path: Assets/_Project/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/_Project/Scenes/Pazeme.unity
+    guid: 42d89e1f7c7997944a6301beeb69bedb
+  - enabled: 0
     path: Assets/_Project/Scenes/LapasPuzle.unity
     guid: 7036a9ff087efc040a4025082c462c03
-  - enabled: 1
-    path: Assets/_Project/Scenes/MazePuzle.unity
-    guid: 236dc661052ac16429246a6d8e0fb836
   m_configObjects: {}
