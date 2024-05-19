@@ -7,12 +7,14 @@ public class Walk : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     public float speed = 5f; // Adjust the speed as needed
     public float jumpForce = 10f; // Adjust the jump force as needed
+    public LayerMask groundLayer; // Layer mask for detecting ground
+    private Rigidbody2D rb;
     private bool isGrounded;
+    [SerializeField] float groundDistance = 1.0f;
 
     void Start()
     {
-        
-        // Your initialization code, if any
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -21,7 +23,7 @@ public class Walk : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
 
         // Calculate the movement direction
-        Vector3 movement = new Vector3(horizontalInput, 0f, 0f);
+        Vector2 movement = new Vector2(horizontalInput, 0f);
 
         // Move the character
         transform.Translate(movement * speed * Time.deltaTime);
@@ -29,42 +31,41 @@ public class Walk : MonoBehaviour
         // Flip the sprite based on movement direction
         if (movement.x > 0)
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
         else if (movement.x < 0)
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }
+
+        // Check if the player is grounded
+        isGrounded = IsGrounded();
 
         // Jumping logic
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
-        }
-    }
-
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-        // Check if the collision is with the ground
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-        }
-    }
-
-    void OnCollisionExit2D(Collision2D collision)
-    {
-        // Check if the player leaves the ground
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = false;
         }
     }
 
     void Jump()
     {
         // Apply a vertical force for jumping
-        GetComponent<Rigidbody2D>().AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+    }
+    
+    bool IsGrounded() 
+    {
+        Vector2 position = transform.position;
+        Vector2 direction = Vector2.down * groundDistance;
+        
+        
+        Debug.DrawRay(position, direction, Color.green);
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, groundDistance, groundLayer);
+        if (hit.collider != null) {
+            return true;
+        }
+
+        return false;
     }
 }
-
