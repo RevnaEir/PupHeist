@@ -421,7 +421,7 @@ GameObject:
   m_Component:
   - component: {fileID: 91429097}
   - component: {fileID: 91429096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: kumode
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 314853133}
   - component: {fileID: 314853132}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "kr\u0113slins"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -900,7 +900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 350978016}
   - component: {fileID: 350978017}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pukes_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1109,7 +1109,7 @@ GameObject:
   m_Component:
   - component: {fileID: 415018848}
   - component: {fileID: 415018847}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: galdins2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1280,9 +1280,9 @@ GameObject:
   - component: {fileID: 462251576}
   - component: {fileID: 462251575}
   - component: {fileID: 462251577}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: Zeme
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1391,6 +1391,10 @@ PrefabInstance:
     - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_Name
       value: platform efector
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1926212347804658082, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_Size.x
@@ -1545,6 +1549,10 @@ PrefabInstance:
     - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_Name
       value: platform efector
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1926212347804658082, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_Size.x
@@ -2137,7 +2145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 737710656}
   - component: {fileID: 737710657}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pukes_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2476,7 +2484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 918513707}
   - component: {fileID: 918513708}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pukes_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2948,6 +2956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform efector
       objectReference: {fileID: 0}
+    - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1926212347804658082, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_Size.x
       value: 1.1310446
@@ -3017,6 +3029,10 @@ PrefabInstance:
     - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_Name
       value: platform efector
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1926212347804658082, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_Size.x
@@ -3122,7 +3138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1129755409}
   - component: {fileID: 1129755410}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pukes_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3335,7 +3351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1145516622}
   - component: {fileID: 1145516621}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: "kr\u0113slins (1)"
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3588,7 +3604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1191096641}
   - component: {fileID: 1191096640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: pakaramais2
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3993,7 +4009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1270040102}
   - component: {fileID: 1270040103}
-  m_Layer: 3
+  m_Layer: 8
   m_Name: StartSiena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4129,7 +4145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2490687732541210253, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
       propertyPath: jumpForce
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2490687732541210254, guid: 801e8a2d684203f45a87b644bc89b752, type: 3}
       propertyPath: m_RootOrder
@@ -4189,7 +4205,7 @@ GameObject:
   - component: {fileID: 1362746883}
   - component: {fileID: 1362746882}
   - component: {fileID: 1362746881}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plauktins2 (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -4989,7 +5005,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1774450171}
   - component: {fileID: 1774450170}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: plauktins2 (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -5391,6 +5407,10 @@ PrefabInstance:
       value: platform efector
       objectReference: {fileID: 0}
     - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_TagString
       value: Ground
       objectReference: {fileID: 0}
@@ -5631,6 +5651,10 @@ PrefabInstance:
     - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_Name
       value: platform efector
+      objectReference: {fileID: 0}
+    - target: {fileID: 1601312517817997915, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1926212347804658082, guid: 3d4f8af16edf568438bb0cec7782de7d, type: 3}
       propertyPath: m_Size.x

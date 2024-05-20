@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/LapasPuzle.unity
     guid: 7036a9ff087efc040a4025082c462c03
   - enabled: 1
+    path: Assets/_Project/Scenes/bankaoutside.unity
+    guid: a893a04e72512fc40a2190f301aa75c9
+  - enabled: 1
     path: Assets/_Project/Scenes/BankaInside.unity
     guid: d97430d05fd089f49a812c0cda1ef751
   m_configObjects: {}
