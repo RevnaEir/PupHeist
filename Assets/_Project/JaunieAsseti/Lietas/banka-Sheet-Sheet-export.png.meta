@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9ecef8cf26089b84e8f702374a606e65
+guid: 32a73a5cc13086b4886dc39b9ef2cb5e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 36
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,211 +105,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jungleassets_0
+      name: banka_lamp
       rect:
         serializedVersion: 2
-        x: 6
-        y: 135
-        width: 38
-        height: 40
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 177
+        y: 142
+        width: 26
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5efe33383ca6324fafce424e53300b7
-      internalID: -939105161
+      spriteID: ffca3ee94e223b940bc80c8d9f153a62
+      internalID: 2034735782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jungleassets_1
+      name: banka_pod
       rect:
         serializedVersion: 2
-        x: 58
-        y: 135
-        width: 37
-        height: 37
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 233
+        y: 179
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 610bc29dfb210fb4b8781a662874f663
-      internalID: 1416947564
+      spriteID: 0003050ab67a90a46b5f4e2d8f2d11d5
+      internalID: 893483517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jungleassets_2
+      name: banka_stairs
       rect:
         serializedVersion: 2
-        x: 110
-        y: 115
-        width: 73
-        height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 68
+        y: 51
+        width: 14
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72fbbb1cd33167f49a835db647d93fd6
-      internalID: 140321039
+      spriteID: 520b2b9e7531cbd4ea62398c278515f9
+      internalID: -285816926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jungleassets_3
+      name: banka_plaukts
       rect:
         serializedVersion: 2
-        x: 333
-        y: 153
-        width: 9
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 101
+        y: 120
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b472b932172278f41bb4677a5ba184f7
-      internalID: 595074718
+      spriteID: daaa8a6b3aba27344b13a7b9bde2535e
+      internalID: -428279419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jungleassets_4
+      name: banka_registr
       rect:
         serializedVersion: 2
-        x: 350
-        y: 146
-        width: 13
-        height: 13
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc098e7feae2fa94798e8f4d46f81e5d
-      internalID: 303439224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jungleassets_5
-      rect:
-        serializedVersion: 2
-        x: 218
-        y: 6
-        width: 92
-        height: 144
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 203184b8d6392134eaddc0b1a5c07bb2
-      internalID: -1234123461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jungleassets_6
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 129
-        width: 12
-        height: 11
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6648b3e7d63163e4aad7e8360ef09286
-      internalID: -249584759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jungleassets_7
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 3
-        width: 154
-        height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6b0c05c9d825bd4189b9504fd348cc3
-      internalID: -739283860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jungleassets_8
-      rect:
-        serializedVersion: 2
-        x: 326
+        x: 120
         y: 42
-        width: 51
-        height: 30
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a25cdea3ceef2747ac7c0c7df9dbb30
-      internalID: 800791044
+      spriteID: 36bcbe43ec8ab0e41b5fcb20ab6bebfa
+      internalID: -2053016050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jungleassets_9
+      name: banka_chair
       rect:
         serializedVersion: 2
-        x: 313
-        y: 8
-        width: 22
-        height: 17
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 277
+        y: 42
+        width: 54
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59f7df156cc8c914895d85cc7e85d453
-      internalID: -627997136
+      spriteID: c7281aec3cf12c14dbbccd237adcbf5b
+      internalID: 1209702849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banka_dzeltens
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 25
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8851434fcb4937c48b0d9caf7b24ed3c
+      internalID: 715914619
       vertices: []
       indices: 
       edges: []
@@ -325,16 +262,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jungleassets_0: -939105161
-      Jungleassets_4: 303439224
-      Jungleassets_7: -739283860
-      Jungleassets_6: -249584759
-      Jungleassets_9: -627997136
-      Jungleassets_3: 595074718
-      Jungleassets_1: 1416947564
-      Jungleassets_2: 140321039
-      Jungleassets_5: -1234123461
-      Jungleassets_8: 800791044
+      banka_lamp: 2034735782
+      banka_pod: 893483517
+      banka-Sheet-Sheet-export_6: -1452392459
+      banka-Sheet-Sheet-export_4: 1446173516
+      banka_stairs: -285816926
+      banka_chair: 1209702849
+      banka_plaukts: -428279419
+      banka_registr: -2053016050
+      banka-Sheet-Sheet-export_5: -240039216
+      banka-Sheet-Sheet-export_11: 366005105
+      banka_dzeltens: 715914619
+      banka-Sheet-Sheet-export_8: -1120314432
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
