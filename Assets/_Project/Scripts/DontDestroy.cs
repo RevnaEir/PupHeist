@@ -1,3 +1,4 @@
+using Cinemachine;
 using UnityEngine;
 
 public class DontDestroy : MonoBehaviour
@@ -16,6 +17,11 @@ public class DontDestroy : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            var vrcam = GameObject.Find("CM vcam1");
+            if (vrcam != null)
+            {
+                vrcam.GetComponent<CinemachineVirtualCamera>().Follow = instance.gameObject.transform;
+            }
         }
 
         DontDestroyOnLoad(gameObject);
