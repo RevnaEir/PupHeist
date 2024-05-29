@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Rat
   - Ladder
+  - COMPUTER
+  - Computer
   layers:
   - Default
   - TransparentFX
