@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="39b6cb05-9789-4781-bf16-a20e2f8bca68" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/Assets/System/Event Listeners/ImageEventListener.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Assets/System/Event Listeners/ImageEventListener.cs.meta" afterDir="false" />
@@ -26,6 +27,9 @@
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
+=======
+    <list default="true" id="39b6cb05-9789-4781-bf16-a20e2f8bca68" name="Changes" comment="" />
+>>>>>>> 09114f3e13d25de3501f39d26d6c07febb967ff4
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +39,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
     <setting file="file://$PROJECT_DIR$/Assets/System/Event Listeners/ImageEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/ChangeDialogeActorImage.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/ComputerUI.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> 09114f3e13d25de3501f39d26d6c07febb967ff4
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/DontDestroy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/PlayerInteraction.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -149,8 +158,12 @@
       <workItem from="1715251447420" duration="434000" />
       <workItem from="1716192520776" duration="599000" />
       <workItem from="1716465059034" duration="718000" />
+<<<<<<< HEAD
       <workItem from="1716920253169" duration="2659000" />
       <workItem from="1716922954303" duration="2754000" />
+=======
+      <workItem from="1716996547868" duration="630000" />
+>>>>>>> 09114f3e13d25de3501f39d26d6c07febb967ff4
     </task>
     <servers />
   </component>
