@@ -15,12 +15,7 @@ public class LevelMove_Ref : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            
-            other.transform.position = playerNewPoisition;
-
-            SceneManager.LoadSceneAsync(sceneBuildIndex, LoadSceneMode.Single); 
-            
-
+            SceneManager.LoadSceneAsync(sceneBuildIndex);
         }
     }
 

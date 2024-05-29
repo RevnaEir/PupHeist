@@ -6,7 +6,7 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     [SerializeField]private Animator _animator;
-
+    [SerializeField] private int keyID;
 
     [ContextMenu("Open")]
     public void Open()
@@ -22,7 +22,7 @@ public class Door : MonoBehaviour
 
             foreach (var key in collectedKeys.keyList2)
             {
-                if (key.id == 3)
+                if (key.id == keyID)
                 {
                     Open();
                 }

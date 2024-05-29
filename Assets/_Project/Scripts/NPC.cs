@@ -9,6 +9,8 @@ public class NPC : MonoBehaviour
 {
     [SerializeField] private GameEvent showInteractionText;
     [SerializeField] private GameEvent hideInteractionText;
+    [SerializeField] private ImageGameEvent changeImage;
+    [SerializeField] private Sprite actorSprite;
     
     public GameObject dialoguePanel;
     public TMP_Text dialogueText;
@@ -19,9 +21,6 @@ public class NPC : MonoBehaviour
     public float wordSpeed;
     public bool playerIsClose;
     
-    
-
-
     void Start()
     {
         dialogueText.text = "";
@@ -36,6 +35,7 @@ public class NPC : MonoBehaviour
             if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
+                changeImage.Raise(actorSprite);
                 StartCoroutine(Typing());
             }
             else if (dialogueText.text == dialogue[index])
@@ -84,6 +84,7 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+
             showInteractionText.Raise();
             playerIsClose = true;
         }

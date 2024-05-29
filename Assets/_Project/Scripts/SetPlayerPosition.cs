@@ -1,14 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class SetPlayerPosition : MonoBehaviour
 {
-    private void OnEnable()
+    private void Awake()
     {
         DontDestroy doggie = FindObjectOfType<DontDestroy>();
-
-        doggie.transform.position = transform.position;
+        Debug.Log(doggie.transform.position);
+        doggie.gameObject.transform.position = transform.position;
     }
 }

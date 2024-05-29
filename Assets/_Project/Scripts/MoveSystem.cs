@@ -73,13 +73,13 @@ public class MoveSystem : MonoBehaviour
         if (Mathf.Abs(this.transform.localPosition.x - correctForm.transform.localPosition.x) <= offset.x &&
         Mathf.Abs(this.transform.localPosition.y - correctForm.transform.localPosition.y) <= offset.y)
         {
-            this.transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
+            transform.position = new Vector3(correctForm.transform.position.x, correctForm.transform.position.y, correctForm.transform.position.z);
             finish = true;
             callback?.Raise();
         }
         else
         {
-            this.transform.position = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
+            transform.position = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
         }
     }
 
