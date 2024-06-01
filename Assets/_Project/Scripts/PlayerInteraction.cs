@@ -4,14 +4,23 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    public GameObject computerUI; // Reference to the computer UI
+    public ComputerUI computerUIPrefab; // Reference to the computer UI prefab
+    private GameObject computerUIScreen;
     private bool isNearComputer = false;
 
     void Update()
     {
         if (isNearComputer && Input.GetKeyDown(KeyCode.E))
         {
-            computerUI.SetActive(true);
+            OpenComputerScreen();
+        }
+    }
+
+    private void OpenComputerScreen()
+    {
+        if (computerUIPrefab != null)
+        {
+            computerUIPrefab.computerCanvas.SetActive(true);
             Time.timeScale = 0; // Pause the game
         }
     }
@@ -20,6 +29,7 @@ public class PlayerInteraction : MonoBehaviour
     {
         if (other.CompareTag("Computer"))
         {
+            computerUIPrefab = other.gameObject.GetComponent<ComputerUI>();
             isNearComputer = true;
         }
     }
