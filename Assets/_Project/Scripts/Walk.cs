@@ -11,6 +11,7 @@ public class Walk : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     [SerializeField] float groundDistance = 1.0f;
+    public Animator animator; 
 
     void Start()
     {
