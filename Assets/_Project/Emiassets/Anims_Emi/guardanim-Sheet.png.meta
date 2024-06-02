@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1a1fc11ad6342fb45b57b626f8541b5a
+guid: e0ad837b24984ea47bf9eed57ad6190b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 36
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,143 +101,173 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BankSecurityDoor
+      name: guardanim-Sheet_0
       rect:
         serializedVersion: 2
-        x: 338
-        y: 14
-        width: 65
-        height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b38cd084e24fab94d9510d2b744f82d8
-      internalID: 226889031
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PressE
-      rect:
-        serializedVersion: 2
-        x: 419
-        y: 53
-        width: 63
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70eec97acc996b4429217962c02b4aeb
-      internalID: 88676457
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DoNotSign
-      rect:
-        serializedVersion: 2
-        x: 517
-        y: 70
-        width: 34
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13ae37e5c7fee7e48bff7f0a412aa7c0
-      internalID: 1895691173
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SafeDoor
-      rect:
-        serializedVersion: 2
-        x: 585
+        x: 2
         y: 0
-        width: 134
-        height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 22
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d5faba5eb86b5442b56e1ecdc246529
-      internalID: -2043343926
+      spriteID: 9327869a552857844ac7458690c1f8d5
+      internalID: -1226016051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantGreen
+      name: guardanim-Sheet_1
       rect:
         serializedVersion: 2
-        x: 504
-        y: 21
-        width: 29
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 30
+        y: 0
+        width: 21
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d03090040550ca3449b18a1146da0060
-      internalID: 768463001
+      spriteID: dceba9c278ff5b6469370222371964a4
+      internalID: 1038233715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlantYellow
+      name: guardanim-Sheet_2
       rect:
         serializedVersion: 2
-        x: 541
-        y: 21
-        width: 29
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 57
+        y: 0
+        width: 21
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a67efc26358d7ab4e98f889d9c0e25cc
-      internalID: 1243561806
+      spriteID: 309eafbdb38c5fc47a1454fa98a4425c
+      internalID: -137593402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardanim-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 23
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d585671f9aa724641910d32ddee86414
+      internalID: -284279392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardanim-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 24
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48de84dd5cfa830468bdc92fa641f14b
+      internalID: 1835435925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardanim-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 25
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9e95da424d4dd43b597a8a05a4ea94
+      internalID: 716158667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardanim-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 21
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6b6ba919fae67499e7106f64f45498
+      internalID: 474482341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guardanim-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 22
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80157d36ea11bc840b181cafdf26225a
+      internalID: 642173531
       vertices: []
       indices: 
       edges: []
@@ -253,12 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlantGreen: 768463001
-      PressE: 88676457
-      BankSecurityDoor: 226889031
-      PlantYellow: 1243561806
-      DoNotSign: 1895691173
-      SafeDoor: -2043343926
+      guardanim-Sheet_2: -137593402
+      guardanim-Sheet_7: 642173531
+      guardanim-Sheet_0: -1226016051
+      guardanim-Sheet_4: 1835435925
+      guardanim-Sheet_5: 716158667
+      guardanim-Sheet_6: 474482341
+      guardanim-Sheet_1: 1038233715
+      guardanim-Sheet_3: -284279392
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

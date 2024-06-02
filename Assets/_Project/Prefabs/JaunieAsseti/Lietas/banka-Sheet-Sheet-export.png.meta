@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 36
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: banka_lamp
+      name: banka-Sheet-Sheet-export_0
       rect:
         serializedVersion: 2
-        x: 177
-        y: 142
-        width: 26
-        height: 132
+        x: 164
+        y: 132
+        width: 39
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,14 +131,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffca3ee94e223b940bc80c8d9f153a62
-      internalID: 2034735782
+      spriteID: dc25942353d41d9439d9c896b7817d92
+      internalID: -2035740088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: banka_pod
+      name: banka-Sheet-Sheet-export_1
       rect:
         serializedVersion: 2
         x: 233
@@ -152,14 +152,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0003050ab67a90a46b5f4e2d8f2d11d5
-      internalID: 893483517
+      spriteID: 6f3a01aca70736149908e443077bd106
+      internalID: -810510023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: banka_stairs
+      name: banka-Sheet-Sheet-export_2
       rect:
         serializedVersion: 2
         x: 68
@@ -173,14 +173,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 520b2b9e7531cbd4ea62398c278515f9
-      internalID: -285816926
+      spriteID: 225855026dd347144813509e50e74e90
+      internalID: -281896803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: banka_plaukts
+      name: banka-Sheet-Sheet-export_3
       rect:
         serializedVersion: 2
         x: 101
@@ -194,14 +194,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: daaa8a6b3aba27344b13a7b9bde2535e
-      internalID: -428279419
+      spriteID: 108df1372eb948e45b2eef6dc8d24c85
+      internalID: 826372370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: banka_registr
+      name: banka-Sheet-Sheet-export_7
       rect:
         serializedVersion: 2
         x: 120
@@ -215,14 +215,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36bcbe43ec8ab0e41b5fcb20ab6bebfa
-      internalID: -2053016050
+      spriteID: 0da52b32a14ffab48bc08bd116549ca9
+      internalID: -530049261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: banka_chair
+      name: banka-Sheet-Sheet-export_8
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 42
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b327691ef23939d48b39974457a1707e
+      internalID: -1120314432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banka-Sheet-Sheet-export_9
       rect:
         serializedVersion: 2
         x: 277
@@ -236,14 +257,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7281aec3cf12c14dbbccd237adcbf5b
-      internalID: 1209702849
+      spriteID: 123c82f29a47504449cf3a4d74447bfe
+      internalID: 191558631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: banka_dzeltens
+      name: banka-Sheet-Sheet-export_10
       rect:
         serializedVersion: 2
         x: 64
@@ -257,8 +278,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8851434fcb4937c48b0d9caf7b24ed3c
-      internalID: 715914619
+      spriteID: 5bfbbc94c063f544ea4c062808399da6
+      internalID: -758276533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: banka-Sheet-Sheet-export_11
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 4
+        width: 76
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1077d2d5472ca4fb8d62e8da12a5b3
+      internalID: 366005105
       vertices: []
       indices: 
       edges: []
@@ -274,17 +316,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      banka_lamp: 2034735782
-      banka_pod: 893483517
+      banka-Sheet-Sheet-export_0: -2035740088
+      banka-Sheet-Sheet-export_7: -530049261
       banka-Sheet-Sheet-export_6: -1452392459
       banka-Sheet-Sheet-export_4: 1446173516
-      banka_stairs: -285816926
-      banka_chair: 1209702849
-      banka_plaukts: -428279419
-      banka_registr: -2053016050
       banka-Sheet-Sheet-export_5: -240039216
+      banka-Sheet-Sheet-export_10: -758276533
       banka-Sheet-Sheet-export_11: 366005105
-      banka_dzeltens: 715914619
+      banka-Sheet-Sheet-export_3: 826372370
+      banka-Sheet-Sheet-export_1: -810510023
+      banka-Sheet-Sheet-export_9: 191558631
+      banka-Sheet-Sheet-export_2: -281896803
       banka-Sheet-Sheet-export_8: -1120314432
   spritePackingTag: 
   pSDRemoveMatte: 0
