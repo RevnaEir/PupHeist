@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 2025996989}
   - component: {fileID: 6744270167694583088}
   - component: {fileID: 1865596998}
+  - component: {fileID: 4146160525412135514}
+  - component: {fileID: 6714911236540335197}
   m_Layer: 0
   m_Name: Doggie
   m_TagString: Player
@@ -79,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 224
-  m_Sprite: {fileID: -889138580, guid: 2b3a4261456bd9e4cb7fe941a3ff9d0e, type: 3}
+  m_Sprite: {fileID: 151656890, guid: 7cb59fd59f55d4d47914273188239c8a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,18 +105,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.015610695, y: 0.035171807}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.84375, y: 0.625}
+    oldSize: {x: 1.0277778, y: 0.4722222}
     newSize: {x: 0.84375, y: 0.625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8437519, y: 0.6081641}
+  m_Size: {x: 0.6219444, y: 0.53782046}
   m_EdgeRadius: 0
 --- !u!50 &3936645179330557028
 Rigidbody2D:
@@ -151,11 +153,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2490687732541210241}
   speed: 3
-  jumpForce: 5
+  jumpForce: 7
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
   groundDistance: 0.5
+  animator: {fileID: 6714911236540335197}
 --- !u!114 &2025996989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,3 +200,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 3936645179330557028}
+--- !u!114 &4146160525412135514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2490687732541210243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8070dff10e4c41f40af8608bc9f29d9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  computerUIPrefab: {fileID: 0}
+--- !u!95 &6714911236540335197
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2490687732541210243}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39f8bdff9297601479478cc96ad761bf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

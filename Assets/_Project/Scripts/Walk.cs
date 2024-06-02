@@ -22,7 +22,18 @@ public class Walk : MonoBehaviour
     {
         // Get the horizontal input (A and D keys)
         float horizontalInput = Input.GetAxis("Horizontal");
-
+        //animator.SetFloat("Speed", Mathf.Abs(horizontalInput));
+        if (horizontalInput != 0)
+        {
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
+            
+        }
+        
+        
         // Calculate the movement direction
         Vector2 movement = new Vector2(horizontalInput, 0f);
 
@@ -32,11 +43,11 @@ public class Walk : MonoBehaviour
         // Flip the sprite based on movement direction
         if (movement.x > 0)
         {
-            spriteRenderer.flipX = true;
+            spriteRenderer.flipX = false;
         }
         else if (movement.x < 0)
         {
-            spriteRenderer.flipX = false;
+            spriteRenderer.flipX = true;
         }
 
         // Check if the player is grounded
@@ -53,13 +64,14 @@ public class Walk : MonoBehaviour
     {
         // Apply a vertical force for jumping
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        animator.SetBool("IsJumping", true);
     }
     
     bool IsGrounded() 
     {
         Vector2 position = transform.position;
         Vector2 direction = Vector2.down * groundDistance;
-        
+        animator.SetBool("IsJumping", false);
         
         Debug.DrawRay(position, direction, Color.green);
         RaycastHit2D hit = Physics2D.Raycast(position, direction, groundDistance, groundLayer);

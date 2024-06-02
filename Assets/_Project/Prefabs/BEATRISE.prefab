@@ -233,4 +233,4 @@ MonoBehaviour:
   dialogue:
   - (reading a book)... he lifted up the sword and cut the...
   wordSpeed: 0.06
-  playerIsClose: 1
+  playerIsClose: 0

@@ -35,7 +35,7 @@ public class NPC : MonoBehaviour
             if (!dialoguePanel.activeInHierarchy)
             {
                 dialoguePanel.SetActive(true);
-                changeImage.Raise(actorSprite);
+                changeImage?.Raise(actorSprite);
                 StartCoroutine(Typing());
             }
             else if (dialogueText.text == dialogue[index])
